@@ -1,0 +1,22 @@
+.navbar{
+    background-color: black;
+    height: 80px;
+    margin: 0px;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.shoepic{
+    height: 150px;
+    display: block;
+    /* margin-left: auto; */
+    margin-right: auto;
+}
+.randomc{
+    border: 2px solid red;
+}
+span{
+    border: 2px solid blue;
+}
