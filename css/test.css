@@ -1,22 +1,31 @@
 .navbar{
-    background-color: black;
-    height: 80px;
-    margin: 0px;
+    display: flex;
+  align-items: center;
+  justify-content: space-between; /* brand left, links right */
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(90deg, #0f172a, #0b1220); /* subtle bg */
+  color: white;
 
 }
+.nav-links {
+  display:flex;
+  gap: 1rem;
+  list-style: none;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0.6rem;
+  border-radius: 5px;
+}
+.nav-links a:focus,
+.nav-links a:hover {
+  background: rgba(255,255,255,0.08);
+}
+
 body {
   margin: 0;
   padding: 0;
 }
-.shoepic{
-    height: 150px;
-    display: block;
-    /* margin-left: auto; */
-    margin-right: auto;
-}
-.randomc{
-    border: 2px solid red;
-}
-span{
-    border: 2px solid blue;
-}
+
