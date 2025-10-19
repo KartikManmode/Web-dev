@@ -1,12 +1,12 @@
 .navbar{
     display: flex;
   align-items: center;
-  justify-content: space-between; /* brand left, links right */
+  justify-content: space-between;
   gap: 1rem;
   padding: 0.75rem 1rem;
-  background: linear-gradient(90deg, #0f172a, #0b1220); /* subtle bg */
+  background: linear-gradient(90deg, #0f172a, #0b1220);
   color: white;
-
+  
 }
 .nav-links {
   display:flex;
@@ -14,18 +14,48 @@
   list-style: none;
 }
 .nav-links a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 0.5rem 0.6rem;
   border-radius: 5px;
+
 }
-.nav-links a:focus,
 .nav-links a:hover {
   background: rgba(255,255,255,0.08);
 }
-
 body {
   margin: 0;
   padding: 0;
+  
 }
+.maindiv{
+  background-image: url(../images/WhatsApp\ Image\ 2025-10-11\ at\ 12.00.05.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+  background-attachment: fixed;
+  
 
+}
+#upcoming{
+  height: 240px;
+    display: flex;
+
+}
+#past{
+  margin-block: 30px;
+  opacity: 0.6;
+  height: 200px;
+  background-color:chocolate;
+    display: flex;
+
+}
+.card{
+  height: inherit;
+  width:200px;
+  background-color: #d0cfcf;
+  margin-block: 10px;
+  margin-inline: 20px;
+  border-radius: 15%;
+}
